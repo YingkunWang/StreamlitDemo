@@ -25,3 +25,6 @@ with col2:
 # st.write('Mean:', selectedspeed['speeding'].mean())
 st.write('Bar Chart:')
 st.bar_chart(selectedspeed.groupby("speeding").count())
+
+if __name__ == '__main__':
+    main()
